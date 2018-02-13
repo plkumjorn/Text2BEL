@@ -1,0 +1,207 @@
+SEN:10003274	p(MGI:Hsf1) increases r(MGI:Hsp90aa1)	BEL:200685641
+SEN:10003274	p(MGI:Hsf1) increases r(MGI:Hspa1a)	BEL:200685661
+SEN:10003274	a(CHEBI:alcohol) increases r(MGI:Hsp90aa1)	BEL:200685642
+SEN:10003274	a(CHEBI:alcohol)  increases tloc(p(MGI:Hsf1))	BEL:200685643
+SEN:10003274	a(CHEBI:alcohol)  increases r(MGI:Hspa1a)	BEL:200685662
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:JUNB)	BEL:200454161
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:SMAD7)	BEL:20045418
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:CDKN1A)	BEL:200454162
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:IVL)	BEL:200454163
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:SERPINE1)	BEL:200454164
+SEN:10003350	p(HGNC:TGFB1) increases r(HGNC:TGFBI)	BEL:200454165
+SEN:10003358	a(CHEBI:dexamethasone) decreases p(HGNC:ICAM3)	BEL:200238421
+SEN:10003358	a(CHEBI:dexamethasone) increases p(HGNC:SELL)	BEL:20023846
+SEN:10003358	a(CHEBI:dexamethasone) decreases (a(CHEBI:"calcium ionophore") increases p(HGNC:ICAM1))	BEL:200238422
+SEN:10003358	a(CHEBI:"calcium ionophore") increases p(HGNC:ICAM1)	BEL:200238423
+SEN:10003358	a(CHEBI:dexamethasone) decreases p(HGNC:ICAM1)	BEL:200238424
+SEN:10003390	a(CHEBI:ethanol) increases p(MGI:Gnai1)	BEL:20023948
+SEN:10003390	a(CHEBI:ethanol) increases p(MGI:Gnai2)	BEL:20023950
+SEN:10003462	a(CHEBI:lipopolysaccharide) increases p(MGI:C5ar1)	BEL:20024404
+SEN:10003538	a(CHEBI:"perfluorodecanoic acid") increases tloc(p(MGI:Nr1i3))	BEL:200248321
+SEN:10003538	a(CHEBI:"perfluorodecanoic acid") increases r(MGI:Nr1i3)	BEL:200248322
+SEN:10003542	a(CHEBI:phenylhydrazine) increases p(MGI:Lcn2)	BEL:20024850
+SEN:10003574	a(CHEBI:rolipram) increases p(HGNC:CREB1,pmod(P))	BEL:20004862
+SEN:10003622	a(CHEBI:testosterone) increases r(HGNC:LCP1)	BEL:20025212
+SEN:10003704	p(MGI:Camk2a) increases act(p(MGI:Clcn3))	BEL:20037754
+SEN:10003812	p(HGNC:AR) increases r(HGNC:UGDH)	BEL:200655662
+SEN:10004054	bp(GOBP:"cell cycle") increases p(HGNC:MBD3)	BEL:20028358
+SEN:10004182	bp(GOBP:"stress-induced premature senescence") increases p(MGI:Mmp12)	BEL:20029054
+SEN:10004206	complex(p(HGNC:ADAM23), p(HGNC:ITGAV), p(HGNC:ITGB3)) increases bp(GOBP:"cell adhesion")	BEL:20029174
+SEN:10004238	p(HGNC:ACACB) decreases bp(GOBP:"fatty acid oxidation")	BEL:20029292
+SEN:10004256	act(p(HGNC:AR)) increases bp(GOBP:"cell proliferation")	BEL:200293321
+SEN:10004256	act(p(HGNC:AR)) increases bp(GOBP:"DNA replication")	BEL:200293322
+SEN:10004256	a(CHEBI:sorbinil) decreases act(p(HGNC:AR))	BEL:200293323
+SEN:10004256	a(CHEBI:sorbinil) decreases bp(GOBP:"DNA replication")	BEL:200293324
+SEN:10004256	a(CHEBI:sorbinil) decreases bp(GOBP:"cell proliferation")	BEL:200293325
+SEN:10004270	cat(p(HGNC:B3GAT3)) increases r(HGNC:B3GAT1)	BEL:20029382
+SEN:10004324	p(HGNC:CTLA4) -| (a(CHEBI:"allergenic agent") -> p(HGNC:IL15))	BEL:200295921
+SEN:10004324	a(CHEBI:"allergenic agent") -> p(HGNC:IL15)	BEL:200295922
+SEN:10004324	a(CHEBI:"allergenic agent") -> p(HGNC:IL13)	BEL:200295923
+SEN:10004324	p(HGNC:CTLA4) -| (a(CHEBI:"allergenic agent") -> p(HGNC:IL13))	BEL:200295924
+SEN:10004324	p(HGNC:CTLA4) decreases p(HGNC:IL13)	BEL:200295925
+SEN:10004324	p(HGNC:CTLA4) decreases p(HGNC:IL5)	BEL:20029594
+SEN:10004394	act(p(HGNC:GAPDH)) increases bp(GOBP:glycolysis)	BEL:20029836
+SEN:10004394	act(p(HGNC:TPI1)) increases bp(GOBP:glycolysis)	BEL:20030318
+SEN:10004582	p(MGI:App) increases r(MGI:Fas)	BEL:20030604
+SEN:10004588	p(MGI:Aqp7) decreases kin(p(MGI:Gyk))	BEL:20030614
+SEN:10004610	p(MGI:Btrc) increases deg(p(MGI:Nfkbia))	BEL:20030708
+SEN:10004710	a(CHEBI:methionine) decreases r(MGI:Reln)	BEL:200311481
+SEN:10004710	a(CHEBI:methionine) decreases r(MGI:Gad1)	BEL:200311482
+SEN:10004710	p(MGI:Dnmt1) increases (a(CHEBI:methionine) decreases r(MGI:Gad1))	BEL:200311483
+SEN:10004710	p(MGI:Dnmt1) increases (a(CHEBI:methionine) decreases r(MGI:Reln))	BEL:200311484
+SEN:10004710	p(MGI:Dnmt1) decreases r(MGI:Gad1)	BEL:200311485
+SEN:10004710	p(MGI:Dnmt1) decreases  r(MGI:Reln)	BEL:200311486
+SEN:10004711	p(MGI:Dnmt1) decreases r(MGI:Reln)	BEL:20031146
+SEN:10004720	p(MGI:Edar) decreases r(MGI:Xiap)	BEL:20031164
+SEN:10004726	p(MGI:Egf) increases r(MGI:Tkt)	BEL:20031182
+SEN:10004732	p(MGI:Endog) increases bp(GOBP:"apoptotic process")	BEL:20031194
+SEN:10004778	p(MGI:Fcgr2b) decreases path(MESHD:Inflammation)	BEL:200313761
+SEN:10004778	p(MGI:Fcgr2b) decreases path(MESHD:"Autoimmune Diseases")	BEL:200313762
+SEN:10004870	p(MGI:Hsd11b1) increases path(MESHD:Obesity)	BEL:200316781
+SEN:10004870	a(CHEBI:cortisol) increases path(MESHD:Obesity)	BEL:200316782
+SEN:10004870	p(MGI:Hsd11b1) increases a(CHEBI:cortisol)	BEL:200316783
+SEN:10004900	p(MGI:Ins1) increases tloc(p(MGI:Trip10))	BEL:20031840
+SEN:10004900	act(p(MGI:Rhoq)) increases (p(MGI:Ins1) increases tloc(p(MGI:Trip10)))	BEL:200332601
+SEN:10004900	act(p(MGI:Rhoq)) increases tloc(p(MGI:Trip10))	BEL:200332602
+SEN:10004908	p(MGI:L3mbtl3) increases r(MGI:Cdkn1c)	BEL:200318821
+SEN:10004908	p(MGI:L3mbtl3) increases bp(GOBP:"cell differentiation")	BEL:200318822
+SEN:10004916	act(p(MGI:Lhcgr)) decreases r(MGI:Sumo1)	BEL:20031910
+SEN:10004980	p(MGI:Npr1) decreases r(MGI:Mmp2)	BEL:20032218
+SEN:10004980	p(MGI:Npr1) decreases r(MGI:Mmp9)	BEL:20032220
+SEN:10004980	p(MGI:Npr1) decreases r(MGI:Tnf)	BEL:20032222
+SEN:10004988	p(MGI:Pctp) decreases act(p(MGI:Soat1))	BEL:20032282
+SEN:10004988	p(MGI:Pctp) increases act(p(MGI:Cyp7a1))	BEL:20032284
+SEN:10005056	p(MGI:Ralgps2) increases act(p(MGI:Rala))	BEL:20032524
+SEN:10005206	p(MGI:Xcr1) increases bp(GOBP:chemotaxis)	BEL:20033316
+SEN:10005252	p(HGNC:AKAP11) decreases act(p(HGNC:PPP1CC))	BEL:20040366
+SEN:10005264	p(HGNC:BAK1) increases act(p(HGNC:VDAC1))	BEL:20040498
+SEN:10005264	p(HGNC:BAX) increases act(p(HGNC:VDAC1))	BEL:200405081
+SEN:10005264	p(HGNC:BCL2L1) decreases act(p(HGNC:VDAC1))	BEL:200405082
+SEN:10005276	complex(p(HGNC:CCNA1),p(HGNC:CDK2)) increases complex(p(HGNC:CCNA1),p(HGNC:E2F1))	BEL:20033626
+SEN:10005430	complex(p(MGI:Dnajc10),p(MGI:Hspa5)) increases act(p(MGI:Hspa5))	BEL:20034358
+SEN:10005450	complex(p(MGI:Ep300),p(MGI:Stat5b)) increases r(MGI:Agt)	BEL:200343861
+SEN:10005450	complex(p(MGI:Stat3),p(MGI:Stat5a)) increases r(MGI:Agt)	BEL:200343862
+SEN:10005460	complex(p(MGI:Foxo1),p(MGI:Pml),p(MGI:Sirt1)) increases r(MGI:Mafa)	BEL:200344061
+SEN:10005460	complex(p(MGI:Foxo1),p(MGI:Pml),p(MGI:Sirt1)) increases r(MGI:Neurod1)	BEL:200344081
+SEN:10005460	p(MGI:Mafa) increases r(MGI:Ins2)	BEL:200344062
+SEN:10005460	p(MGI:Neurod1)increases r(MGI:Ins2)	BEL:200344082
+SEN:10005460	complex(p(MGI:Foxo1),p(MGI:Pml),p(MGI:Sirt1)) decreases bp(GOBP:"response to oxidative stress")	BEL:200344083
+SEN:10005542	act(p(HGNC:NGFR)) -> tloc(p(MGI:Ndnl2))	BEL:200347341
+SEN:10005542	act(p(HGNC:NGFR)) -> tloc(p(MGI:Ndn))	BEL:200347342
+SEN:10005542	p(MGI:E2f1) increases bp(GOBP:"cell death")	BEL:200347343
+SEN:10005578	complex(p(MGI:Rela),p(MGI:Stat3)) increases p(MGI:Ccl5)	BEL:20062020
+SEN:10005616	complex(p(MGI:Vcan),a(CHEBI:"hyaluronic acid")) increases bp(GOBP:"cell proliferation")	BEL:20035032
+SEN:10005616	complex(p(MGI:Vcan),a(CHEBI:"hyaluronic acid")) increases bp(GOBP:"cell migration")	BEL:20035033
+SEN:10005870	act(p(HGNC:DAPK2)) increases p(HGNC:DAPK2,pmod(P))	BEL:20008492
+SEN:10005974	act(p(HGNC:NEK2)) increases p(HGNC:PPP1CC,pmod(P))	BEL:20008696
+SEN:10005974	p(HGNC:PPP1CC,pmod(P)) decreases phos(p(HGNC:PPP1CC))	BEL:20011318
+SEN:10005980	act(p(HGNC:NTRK1)) increases r(HGNC:BCL2)	BEL:20037168
+SEN:10005980	act(p(HGNC:NTRK1)) increases r(HGNC:BCL2A1)	BEL:20037170
+SEN:10005980	act(p(HGNC:NTRK1)) increases r(HGNC:BCL2L1)	BEL:20037172
+SEN:10006196	p(MGI:Ins2) decreases r(MGI:Pnpla2)	BEL:200382901
+SEN:10006196	p(MGI:Ins2) increases r(MGI:Pnpla3)	BEL:200382902
+SEN:10006330	p(MGI:Prkaa2) increases bp(GOBP:"fatty acid beta-oxidation")	BEL:200390921
+SEN:10006330	p(MGI:Prkaa2) decreases act(p(HGNC:ACACA)) 	BEL:200390922
+SEN:10006388	kin(p(MGI:Sox10)) directlyIncreases r(MGI:Tyr)	BEL:200393861
+SEN:10006388	kin(p(MGI:Mitf)) directlyIncreases r(MGI:Tyr)	BEL:200393862
+SEN:10006548	complex(p(HGNC:ADCYAP1),p(HGNC:VIP)) increases r(HGNC:CD86)	BEL:200403321
+SEN:10006548	complex(p(HGNC:ADCYAP1),p(HGNC:VIP)) increases bp(GOBP:"T-helper 2 cell differentiation")	BEL:200403322
+SEN:10006552	p(HGNC:ADCYAP1) decreases r(HGNC:IL12B)	BEL:200403361
+SEN:10006552	p(HGNC:VIP) decreases r(HGNC:IL12B)	BEL:200460941
+SEN:10006552	p(HGNC:ADCYAP1) decreases r(HGNC:NOS2)	BEL:200403362
+SEN:10006552	p(HGNC:VIP) decreases r(HGNC:NOS2)	BEL:200460942
+SEN:10006590	p(HGNC:ARRB1) increases tloc(p(HGNC:ADRA2B))	BEL:20040448
+SEN:10006590	p(HGNC:ARRB2) increases tloc(p(HGNC:ADRA2B))	BEL:20040454
+SEN:10006606	p(HGNC:B2M) increases r(HGNC:VCAM1)	BEL:20040484
+SEN:10006630	p(HGNC:BMP2) increases r(HGNC:IHH)	BEL:200405961
+SEN:10006630	a(CHEBI:"retinoic acid") increases r(HGNC:IHH)	BEL:200405962
+SEN:10006630	p(HGNC:PTHLH) decreases r(HGNC:IHH)	BEL:200405963
+SEN:10006640	p(HGNC:BMP7) decreases r(HGNC:ICAM1)	BEL:200406241
+SEN:10006640	p(HGNC:BMP7) decreases path(MESHD:Inflammation)	BEL:200406242
+SEN:10006660	p(HGNC:C5AR1) increases r(HGNC:ITGB2)	BEL:20040700
+SEN:10006660	p(HGNC:TNF) increases r(HGNC:ITGB2)	BEL:20045706
+SEN:10006676	p(HGNC:CCL25) increases act(p(HGNC:CCR9))	BEL:20040788
+SEN:10006698	p(HGNC:CD40LG) increases r(HGNC:CD80)	BEL:20040914
+SEN:10006698	p(HGNC:CD40LG) increases r(HGNC:CD86)	BEL:20040916
+SEN:10006698	p(HGNC:CD40LG) increases r(HGNC:FAS)	BEL:20040918
+SEN:10006736	p(HGNC:CLCA1) increases p(HGNC:MUC5AC)	BEL:20041074
+SEN:10006744	p(HGNC:CNTF) increases r(HGNC:SOCS2)	BEL:200410941
+SEN:10006744	p(HGNC:CNTF) increases r(HGNC:SOCS3)	BEL:200410942
+SEN:10006744	p(HGNC:CNTF) increases r(HGNC:SOCS1)	BEL:200410943
+SEN:10006774	p(HGNC:CSF2) increases r(HGNC:ITGAM)	BEL:20041196
+SEN:10006774	p(HGNC:CSF2) decreases r(HGNC:SELL)	BEL:20041202
+SEN:10006774	p(HGNC:IL5) increases r(HGNC:ITGAM)	BEL:20043240
+SEN:10006774	p(HGNC:IL5) decreases r(HGNC:SELL)	BEL:20043242
+SEN:10006788	p(HGNC:CTF1) increases r(HGNC:AGT)	BEL:200412381
+SEN:10006788	p(HGNC:CTF1) increases act(p(HGNC:STAT3))	BEL:200412382
+SEN:10006816	p(HGNC:DLX4) increases r(HGNC:GATA1)	BEL:200412383
+SEN:10006816	p(HGNC:DLX4) increases r(HGNC:MYC)	BEL:20041340
+SEN:10006848	p(HGNC:EGF) increases kin(p(HGNC:PRPF4))	BEL:200414661
+SEN:10006848	a(CHEBI:forskolin) increases kin(p(HGNC:PRPF4))	BEL:200414662
+SEN:10006856	p(HGNC:EGF) increases r(HGNC:EEF1A1)	BEL:20041506
+SEN:10006856	p(HGNC:NRG1) increases r(HGNC:EEF1A1)	BEL:20044226
+SEN:10006928	p(HGNC:FGF2) increases r(HGNC:KLF5)	BEL:200418661
+SEN:10006928	a(CHEBI:"phorbol 13-acetate 12-myristate") increases r(HGNC:KLF5)	BEL:200418662
+SEN:10007030	p(HGNC:IFNA1) increases r(HGNC:CISH)	BEL:20042334
+SEN:10007030	p(HGNC:IFNA1) increases r(HGNC:SOCS1)	BEL:20042342
+SEN:10007030	p(HGNC:IFNA1) increases r(HGNC:SOCS2)	BEL:20042344
+SEN:10007030	p(HGNC:IFNA1) increases r(HGNC:SOCS3)	BEL:20042346
+SEN:10007054	p(HGNC:IFNG) decreases r(HGNC:CD80)	BEL:200424341
+SEN:10007054	p(HGNC:IFNG) increases r(HGNC:CD86)	BEL:200424342
+SEN:10007078	p(HGNC:IFNG) increases r(HGNC:PIGR)	BEL:20042498
+SEN:10007078	p(HGNC:IL4) increases r(HGNC:PIGR)	BEL:20043214
+SEN:10007162	p(HGNC:IL1A) increases r(HGNC:DPP4)	BEL:20042858
+SEN:10007190	p(HGNC:IL1B) increases r(HGNC:CSF3)	BEL:20042942
+SEN:10007190	p(HGNC:TNF) increases r(HGNC:CSF3)	BEL:20045674
+SEN:10007296	p(HGNC:IL6) increases r(HGNC:OXTR)	BEL:20043340
+SEN:10007360	p(HGNC:LGALS1) increases bp(GOBP:"cell migration")	BEL:20043732
+SEN:10007360	p(HGNC:LGALS3) increases bp(GOBP:"cell migration")	BEL:20043736
+SEN:10007360	p(HGNC:LGALS8) increases bp(GOBP:"cell migration")	BEL:20043740
+SEN:10007668	p(HGNC:TGFB1) increases r(HGNC:SMAD7)	BEL:20045410
+SEN:10007748	p(HGNC:UMOD) decreases bp(GOBP:"T cell proliferation")	BEL:20045974
+SEN:10007784	p(HGNC:WT1) increases r(HGNC:CDH1)	BEL:20046128
+SEN:10007796	p(HGNC:DUSP14) decreases bp(GOBP:"MAPK cascade")	BEL:20046220
+SEN:10007804	p(HGNC:PPAP2A) decreases (a(CHEBI:"lysophosphatidic acid") increases bp(GOBP:mitosis))	BEL:200462501
+SEN:10007804	a(CHEBI:"lysophosphatidic acid") increases bp(GOBP:mitosis)	BEL:200462502
+SEN:10007804	p(HGNC:PPAP2A) decreases  bp(GOBP:mitosis)	BEL:200462503
+SEN:10007860	p(MGI:Ptp4a3) increases bp(GOBP:"cell adhesion")	BEL:20046478
+SEN:10007904	p(MGI:Acat2) increases path(MESHD:Atherosclerosis)	BEL:20046712
+SEN:10007904	p(MGI:Lcat) decreases path(MESHD:Atherosclerosis)	BEL:20056412
+SEN:10007908	p(MGI:Adam17) increases path(MESHD:Inflammation)	BEL:200467681
+SEN:10007908	a(CHEBI:lipopolysaccharide) increases  path(MESHD:Inflammation)	BEL:200467682
+SEN:10007952	p(MGI:Aifm1) increases bp(GOBP:"cell death")	BEL:200470701
+SEN:10007952	tloc(p(MGI:Aifm1)) increases bp(GOBP:"cell death")	BEL:200470702
+SEN:10007974	p(MGI:Angpt1) decreases path(MESHD:"Neovascularization, Pathologic")	BEL:20047242
+SEN:10007974	p(MGI:Angpt1) decreases path(MESHD:"Retinal Neovascularization")	BEL:20047244
+SEN:10008008	p(MGI:Apoe) decreases a(CHEBI:ceramide)	BEL:20047368
+SEN:10008158	p(MGI:C3) increases bp(GOBP:"lipid biosynthetic process")	BEL:200482961
+SEN:10008158	p(MGI:C3) increases bp(GOBP:"glucose import")	BEL:200482962
+SEN:10008216	p(MGI:Ccl2) increases path(MESHD:"Retinal Neovascularization")	BEL:20048638
+SEN:10008216	p(MGI:Ccl3) increases path(MESHD:"Retinal Neovascularization")	BEL:20048684
+SEN:10008222	p(MGI:Ccl3) increases path(MESHD:Fibrosis)	BEL:20048680
+SEN:10008290	p(MGI:Cftr) increases a(CHEBI:glutathione)	BEL:20049348
+SEN:10008444	p(MGI:Ctnnb1) increases path(MESHD:"Pulmonary Fibrosis")	BEL:200499321
+SEN:10008444	a(CHEBI:bleomycin) increases path(MESHD:"Pulmonary Fibrosis")	BEL:200499322
+SEN:10009198	p(MGI:Il1a) decreases r(MGI:Gja1)	BEL:20054682
+SEN:10009198	p(MGI:Il1a) increases r(MGI:Gja6)	BEL:20054684
+SEN:10010034	p(MGI:S100a13) increases sec(p(MGI:Il1a))	BEL:20060574
+SEN:10010042	p(MGI:Scamp3) decreases deg(p(MGI:Egfr))	BEL:20060620
+SEN:10010310	p(MGI:Tgfa) increases path(MESHD:"Pulmonary Fibrosis")	BEL:20062396
+SEN:10010476	p(MGI:Tnf) increases sec(p(MGI:Csf1))	BEL:200637541
+SEN:10010476	p(MGI:Tnf) increases r(MGI:Csf1)	BEL:200637542
+SEN:10010730	complex(p(HGNC:KAT5),p(HGNC:ZEB1)) decreases r(HGNC:CD4)	BEL:20065428
+SEN:10015738	a(CHEBI:heparin) increases sec(p(HGNC:TFPI))	BEL:20024068
+SEN:10016080	p(MGI:Sirt5) decreases a(CHEBI:ammonia)	BEL:20061100
+SEN:10016080	p(MGI:Sirt5) increases act(p(MGI:Cps1))	BEL:20030980
+SEN:10019830	p(MGI:Capn2) increases deg(p(MGI:Slc2a4))	BEL:200484641
+SEN:10019830	p(MGI:Cast) increases p(MGI:Slc2a4)	BEL:200484642
+SEN:10021232	p(HGNC:HCK,pmod(P)) directlyIncreases kin(p(HGNC:HCK))	BEL:20042122
+SEN:10021786	p(MGI:Itk) increases sec(p(MGI:Il13))	BEL:20038344
+SEN:10021786	kin(p(MGI:Itk)) increases sec(p(MGI:Il5))	BEL:20038346
+SEN:10023156	p(HGNC:GAB2,pmod(P)) directlyIncreases complex(p(HGNC:GAB2),p(HGNC:PTPN11),p(HGNC:GRB2))	BEL:20042006
+SEN:10027596	p(MGI:Ide) increases deg(p(MGI:App))	BEL:200534741
+SEN:10027596	p(MGI:Ide) increases deg(p(MGI:Ins2))	BEL:200534742
+SEN:10029842	p(MGI:Pde3b,pmod(P)) increases act(p(MGI:Pde3b))	BEL:200590501
+SEN:10029842	p(MGI:Akt1) increases p(MGI:Pde3b,pmod(P))	BEL:200590502
+SEN:10029842	p(MGI:Ins2) increases act(p(MGI:Pde3b))	BEL:200590503
+SEN:10029842	p(MGI:Ins2) increases (act(p(MGI:Akt1)) increases p(MGI:Pde3b,pmod(P)))	BEL:200590504

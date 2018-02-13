@@ -1,0 +1,296 @@
+Sentence-ID	BEL original	BEL-ID
+SEN:10000002	a(CHEBI:heparin) increases complex(p(MGI:Serpind1),p(MGI:F2))	BEL:20000002
+SEN:10000004	cat(p(MGI:Galc)) decreases a(CHEBI:psychosine)	BEL:20000004
+SEN:10000006	a(CHEBI:dexamethasone) increases tscript(p(MGI:Cebpb))	BEL:20000006
+SEN:10000008	a(CHEBI:"N-ethyl-N-nitrosourea") increases p(MGI:Rhob)	BEL:20000008
+SEN:10000006	tscript(p(MGI:Cebpb)) increases p(MGI:Pparg)	BEL:20000010
+SEN:10000008	a(CHEBI:cisplatin) increases p(MGI:Rhob)	BEL:20000012
+SEN:10000010	a(CHEBI:glucocorticoid) decreases p(MGI:Pomc)	BEL:20000014
+SEN:10000010	a(CHEBI:glucocorticoid) increases p(MGI:Resp18)	BEL:20000016
+SEN:10000012	gtp(p(MGI:Rac1)) increases a(CHEBI:"reactive oxygen species")	BEL:20000018
+SEN:10000012	gtp(p(MGI:Hras)) increases a(CHEBI:"reactive oxygen species")	BEL:20000020
+SEN:10000014	p(MGI:Egf) increases a(CHEBI:"reactive oxygen species")	BEL:20000022
+SEN:10000016	p(MGI:Il1b) increases a(CHEBI:"reactive oxygen species")	BEL:20000024
+SEN:10000016	p(MGI:Tnf) increases a(CHEBI:"reactive oxygen species")	BEL:20000026
+SEN:10000018	a(CHEBI:glucocorticoid) decreases p(MGI:Tnxb)	BEL:20000028
+SEN:10000020	a(CHEBI:lipopolysaccharide) increases p(MGI:Il1rn)	BEL:20000030
+SEN:10000022	a(CHEBI:mifepristone) decreases tscript(p(MGI:Pgr))	BEL:20000032
+SEN:10000024	kin(p(MGI:Fyn)) increases bp(GOBP:"cell adhesion")	BEL:20000034
+SEN:10000024	kin(p(MGI:Fyn)) increases p(MGI:Ctnnb1,pmod(P,Y))	BEL:20000036
+SEN:10000024	kin(p(MGI:Fyn)) increases p(MGI:Ctnnd1,pmod(P,Y))	BEL:20000038
+SEN:10000024	kin(p(MGI:Fyn)) increases p(MGI:Jup,pmod(P,Y))	BEL:20000040
+SEN:10000026	cat(p(HGNC:CASP3)) directlyIncreases kin(p(HGNC:PAK2))	BEL:20000042
+SEN:10000028	cat(p(MGI:Sod2)) decreases a(CHEBI:"reactive oxygen species")	BEL:20000044
+SEN:10000030	p(HGNC:HGF) decreases (cat(p(HGNC:FAS)) increases bp(GOBP:"cell death"))	BEL:20000046
+SEN:10000032	cat(p(HGNC:FAS)) increases p(HGNC:RB1,pmod(P))	BEL:20000048
+SEN:10000034	cat(p(HGNC:ATP5A1)) decreases bp(GOBP:"cell migration")	BEL:20000050
+SEN:10000034	cat(p(HGNC:ATP5A1)) decreases bp(GOBP:"cell proliferation")	BEL:20000052
+SEN:10000034	cat(p(HGNC:ATP5B)) decreases bp(GOBP:"cell proliferation")	BEL:20000054
+SEN:10000034	cat(p(HGNC:ATP5B)) decreases bp(GOBP:"cell migration")	BEL:20000056
+SEN:10000036	cat(p(HGNC:TIMP2)) decreases cat(p(HGNC:MMP2))	BEL:20000058
+SEN:10000038	p(MGI:Blmh) decreases path(MESHD:"Cystic Fibrosis")	BEL:20000060
+SEN:10000040	p(HGNC:FGF1) increases bp(GOBP:"cell differentiation")	BEL:20000062
+SEN:10000040	p(HGNC:FGF1) increases bp(GOBP:"cell proliferation")	BEL:20000064
+SEN:10000042	cat(p(HGNC:BTRC)) increases deg(p(HGNC:CTNNB1))	BEL:20000066
+SEN:10000044	cat(p(HGNC:AGTR1)) increases p(HGNC:OLR1)	BEL:20000068
+SEN:10000046	cat(p(HGNC:F2R)) increases p(HGNC:IL6)	BEL:20000070
+SEN:10000046	cat(p(HGNC:F2R)) increases p(HGNC:CSF3)	BEL:20000072
+SEN:10000048	a(CHEBI:lipopolysaccharide) increases p(MGI:Nos2)	BEL:20000074
+SEN:10000050	bp(GOBP:"MAPK cascade") directlyIncreases p(HGNC:ESR1,pmod(P))	BEL:20000076
+SEN:10000050	bp(GOBP:"MAPK cascade") increases tscript(p(HGNC:ESR1))	BEL:20000078
+SEN:10000052	cat(p(HGNC:IL6R)) increases tscript(p(HGNC:STAT3))	BEL:20000080
+SEN:10000054	kin(p(HGNC:MET)) increases p(HGNC:CTNNB1,pmod(P,Y))	BEL:20000082
+SEN:10000054	kin(p(HGNC:MET)) increases bp(GOBP:"cell migration")	BEL:20000084
+SEN:10000054	kin(p(HGNC:MET)) decreases bp(GOBP:"cell adhesion")	BEL:20000086
+SEN:10000056	cat(p(MGI:Casp3)) increases deg(p(MGI:Tax1bp1))	BEL:20000088
+SEN:10000056	cat(p(MGI:Casp6)) increases deg(p(MGI:Tax1bp1))	BEL:20000090
+SEN:10000056	cat(p(MGI:Casp7)) increases deg(p(MGI:Tax1bp1))	BEL:20000092
+SEN:10000058	complex(p(MGI:Tlk2),p(MGI:Ywhaz)) decreases tloc(p(MGI:Tlk2),GOCCID:0005737,GOCCID:0005634)	BEL:20000094
+SEN:10000060	complex(p(HGNC:PDGFA),p(HGNC:PDGFB)) increases bp(GOBP:mitosis)	BEL:20000096
+SEN:10000062	a(CHEBI:ciprofibrate) increases p(MGI:Ppara,pmod(P))	BEL:20000098
+SEN:10000064	cat(p(MGI:Klra16)) increases p(MGI:Tyrobp,pmod(P))	BEL:20000100
+SEN:10000066	cat(p(MGI:Tnfrsf12a)) decreases bp(GOBP:"cell migration")	BEL:20000102
+SEN:10000066	cat(p(MGI:Tnfrsf12a)) decreases bp(GOBP:"cell growth")	BEL:20000104
+SEN:10000066	cat(p(MGI:Tnfrsf12a)) decreases bp(GOBP:"cell adhesion")	BEL:20000106
+SEN:10000068	cat(p(HGNC:CASP3)) directlyIncreases cat(p(HGNC:GAS2))	BEL:20000108
+SEN:10000070	cat(p(HGNC:CASP3)) directlyIncreases cat(p(HGNC:GAS2))	BEL:20000110
+SEN:10000072	p(MGI:Fdft1) increases a(CHEBI:dolichol)	BEL:20000112
+SEN:10000074	p(MGI:Fdft1) increases a(CHEBI:ergosterol)	BEL:20000114
+SEN:10000076	a(CHEBI:androgen) directlyIncreases complex(p(HGNC:AR),p(HGNC:PIAS1))	BEL:20000116
+SEN:10000078	a(CHEBI:androgen) directlyIncreases complex(p(HGNC:AR),p(HGNC:PIAS1))	BEL:20000118
+SEN:10000080	kin(p(MGI:Kdr)) increases path(MESHD:"Retinal Neovascularization")	BEL:20000120
+SEN:10000082	p(HGNC:DRG1) increases r(HGNC:CDH1)	BEL:20000122
+SEN:10000082	p(HGNC:DRG1) increases bp(GOBP:"cell differentiation")	BEL:20000124
+SEN:10000084	a(CHEBI:"N-acetyl-D-galactosamine") decreases p(MGI:Fus)	BEL:20000126
+SEN:10000084	a(CHEBI:"chondroitin sulfate") decreases p(MGI:Fus)	BEL:20000128
+SEN:10000086	cat(p(MGI:Ptafr)) increases tloc(p(MGI:Prkca),GOCCID:0005737,GOCCID:0005886)	BEL:20000130
+SEN:10000086	cat(p(MGI:Ptafr)) increases tloc(p(MGI:Prkce),GOCCID:0005737,GOCCID:0005886)	BEL:20000132
+SEN:10000088	a(CHEBI:caffeine) decreases (bp(GOBP:"response to ionizing radiation") increases p(HGNC:CHEK2,pmod(P,T,68)))	BEL:20000134
+SEN:10000088	bp(GOBP:"response to ionizing radiation") increases p(HGNC:CHEK2,pmod(P,T,68))	BEL:20000136
+SEN:10000090	p(HGNC:KRT18) decreases (p(HGNC:TNF) increases bp(GOBP:"cell death"))	BEL:20000138
+SEN:10000090	p(HGNC:KRT8) decreases (p(HGNC:TNF) increases bp(GOBP:"cell death"))	BEL:20000140
+SEN:10000090	p(HGNC:TNF) increases bp(GOBP:"cell death")	BEL:20000142
+SEN:10000092	cat(p(HGNC:UBE2L3)) increases deg(p(HGNC:FOS))	BEL:20000144
+SEN:10000092	cat(p(HGNC:UBE2L3)) increases deg(p(HGNC:MYC))	BEL:20000146
+SEN:10000092	cat(p(HGNC:UBE2L3)) increases deg(p(HGNC:TP53))	BEL:20000148
+SEN:10000094	a(CHEBI:genistein) decreases p(MGI:Cftr)	BEL:20000150
+SEN:10000096	cat(p(HGNC:F2)) increases p(HGNC:F2R,pmod(P))	BEL:20000152
+SEN:10000098	complex(p(HGNC:PTTG1IP),p(HGNC:PTTG1)) directlyIncreases tloc(p(HGNC:PTTG1),GOCCID:0005737,GOCCID:0005634)	BEL:20000154
+SEN:10000100	p(MGI:Il4) decreases (p(MGI:Ifng) increases a(CHEBI:"nitric oxide"))	BEL:20000156
+SEN:10000100	p(MGI:Il4) decreases r(MGI:Nos2)	BEL:20000158
+SEN:10000100	p(MGI:Il4) decreases a(CHEBI:"nitric oxide")	BEL:20000160
+SEN:10000102	p(MGI:Apc) decreases path(MESHD:Adenoma)	BEL:20000162
+SEN:10000104	cat(p(HGNC:FAS)) increases cat(p(HGNC:CASP9))	BEL:20000164
+SEN:10000104	cat(p(HGNC:FAS)) increases tloc(p(HGNC:CYCS),GOCCID:0005739,GOCCID:0005737)	BEL:20000166
+SEN:10000106	cat(p(HGNC:CASP1)) increases p(HGNC:IL1B)	BEL:20000168
+SEN:10000108	cat(p(HGNC:PRDX2)) increases deg(a(CHEBI:"lipid hydroperoxide"))	BEL:20000170
+SEN:10000110	p(MGI:Chek1) decreases bp(GOBP:"cell death")	BEL:20000174
+SEN:10000112	p(MGI:Chek1) increases bp(GOBP:"cell proliferation")	BEL:20000176
+SEN:10000114	kin(p(MGI:Chek1)) decreases path(MESHD:Neoplasms)	BEL:20000178
+SEN:10000116	p(HGNC:TLR2) increases cat(p(HGNC:CASP1))	BEL:20000180
+SEN:10000116	cat(p(HGNC:CASP1)) increases p(HGNC:IL1B)	BEL:20000182
+SEN:10000118	cat(p(HGNC:MYD88)) increases bp(GOBP:"apoptotic process")	BEL:20000184
+SEN:10000118	cat(p(HGNC:TLR2)) increases cat(p(HGNC:MYD88))	BEL:20000186
+SEN:10000120	bp(GOBP:"cell proliferation") increases tloc(p(HGNC:PTPN14),GOCCID:0005737,GOCCID:0005634)	BEL:20000188
+SEN:10000122	a(CHEBI:galangin) decreases (a(CHEBI:"2,3,7,8-tetrachlorodibenzodioxine") increases tscript(p(MGI:Ahr)))	BEL:20000190
+SEN:10000124	a(CHEBI:galangin) decreases complex(a(CHEBI:"2,3,7,8-tetrachlorodibenzodioxine"),p(MGI:Ahr))	BEL:20000192
+SEN:10000126	a(CHEBI:galangin) increases tscript(p(MGI:Ahr))	BEL:20000194
+SEN:10000128	cat(p(HGNC:ALOX5)) increases bp(GOBP:"cell proliferation")	BEL:20000196
+SEN:10000128	cat(p(HGNC:ALOX5)) decreases bp(GOBP:"programmed cell death")	BEL:20000198
+SEN:10000130	cat(p(HGNC:FAS)) increases bp(GOBP:"apoptotic process")	BEL:20000200
+SEN:10000132	bp(GOBP:"MAPK cascade") increases cat(p(MGI:Tnks))	BEL:20000202
+SEN:10000132	bp(GOBP:"MAPK cascade") directlyIncreases p(MGI:Tnks,pmod(P))	BEL:20000204
+SEN:10000134	path(MESHD:Ischemia) increases p(MGI:Icam5)	BEL:20000206
+SEN:10000136	bp(GOBP:"MAPK cascade") decreases (cat(p(HGNC:FAS)) increases bp(GOBP:"apoptotic process"))	BEL:20000208
+SEN:10000138	bp(GOBP:"response to hypoxia") increases deg(p(HGNC:CREB1))	BEL:20000210
+SEN:10000140	bp(GOBP:"response to hypoxia") increases deg(p(HGNC:CREB1))	BEL:20000212
+SEN:10000138	bp(GOBP:"response to hypoxia") increases p(HGNC:CREB1,pmod(P,S))	BEL:20000214
+SEN:10000142	cat(p(HGNC:CALM1)) decreases complex(p(HGNC:MEF2A),p(HGNC:HDAC4))	BEL:20000216
+SEN:10000144	a(CHEBI:"trichostatin A") decreases (tscript(p(MGI:Msx3)) decreases r(MGI:Msx1))	BEL:20000218
+SEN:10000146	a(CHEBI:"nitric oxide") directlyDecreases kin(p(MGI:Mapk8))	BEL:20000220
+SEN:10000148	p(HGNC:HNRNPK) increases bp(GOBP:"cell proliferation")	BEL:20000222
+SEN:10000148	p(HGNC:HNRNPK) increases r(HGNC:MYC)	BEL:20000224
+SEN:10000150	cat(p(HGNC:IL2)) increases kin(p(HGNC:LYN))	BEL:20000226
+SEN:10000150	cat(p(HGNC:IL2)) increases complex(p(HGNC:LYN), p(HGNC:IL2RB))	BEL:20000228
+SEN:10000152	cat(p(HGNC:XIAP)) decreases cat(p(HGNC:CASP9))	BEL:20000230
+SEN:10000152	cat(p(HGNC:DIABLO)) decreases cat(p(HGNC:XIAP))	BEL:20000232
+SEN:10000154	a(CHEBI:wortmannin) decreases p(MGI:Ddit3)	BEL:20000234
+SEN:10000154	a(CHEBI:LY294002) decreases p(MGI:Ddit3)	BEL:20000236
+SEN:10000156	a(CHEBI:lipopolysaccharide) increases a(CHEBI:"nitric oxide")	BEL:20000238
+SEN:10000156	p(MGI:Spp1) decreases a(CHEBI:"nitric oxide")	BEL:20000240
+SEN:10000158	kin(p(MGI:Src)) decreases path(MESHD:Osteopetrosis)	BEL:20000242
+SEN:10000158	kin(p(MGI:Src)) increases bp(GOBP:"apoptotic process")	BEL:20000244
+SEN:10000160	kin(p(MGI:Src)) decreases path(MESHD:Osteopetrosis)	BEL:20000246
+SEN:10000162	bp(GOBP:"response to hypoxia") increases p(HGNC:TP53)	BEL:20000248
+SEN:10000162	bp(GOBP:"response to hypoxia") increases (p(HGNC:TP53) increases bp(GOBP:"apoptotic process"))	BEL:20000250
+SEN:10000164	p(HGNC:PTGER1) increases bp(GOBP:"wound healing")	BEL:20000252
+SEN:10000164	p(HGNC:PTGER4) increases bp(GOBP:"wound healing")	BEL:20000254
+SEN:10000168	p(HGNC:BMP6) increases bp(GOBP:"cell differentiation")	BEL:20000256
+SEN:10000170	cat(p(HGNC:PLAUR)) increases bp(GOBP:"cell migration")	BEL:20000258
+SEN:10000170	complex(p(HGNC:PLAU),p(HGNC:PLAUR)) directlyIncreases cat(p(HGNC:PLAUR))	BEL:20000260
+SEN:10000174	sec(p(MGI:S100b)) increases a(CHEBI:"nitric oxide")	BEL:20000262
+SEN:10000176	path(MESHD:Obesity) increases sec(p(MGI:Retn))	BEL:20000264
+SEN:10000176	a(CHEBI:rosiglitazone) decreases sec(p(MGI:Retn))	BEL:20000266
+SEN:10000178	bp(GOBP:"response to hypoxia") increases kin(p(HGNC:MAPK1))	BEL:20000268
+SEN:10000178	bp(GOBP:"response to hypoxia") increases kin(p(HGNC:MAPK3))	BEL:20000270
+SEN:10000180	a(CHEBI:catecholamine) decreases cat(p(MGI:Lpl))	BEL:20000272
+SEN:10000182	p(HGNC:DCC) increases cat(p(HGNC:CASP9))	BEL:20000274
+SEN:10000182	cat(p(HGNC:CASP9)) directlyIncreases cat(p(HGNC:CASP3))	BEL:20000276
+SEN:10000184	p(MGI:Aifm1) increases bp(GOBP:"cell death")	BEL:20000278
+SEN:10000186	p(HGNC:EHF) decreases path(MESHD:Neoplasms)	BEL:20000280
+SEN:10000188	bp(GOBP:"apoptotic process") increases deg(p(HGNC:EIF4B))	BEL:20000282
+SEN:10000190	bp(GOBP:"apoptotic process") decreases complex(p(HGNC:EIF4B),p(HGNC:PABPN1))	BEL:20000284
+SEN:10000192	cat(p(HGNC:CASP3)) increases deg(p(HGNC:EIF4B))	BEL:20000286
+SEN:10000194	cat(p(MGI:Hsd11b1)) directlyIncreases rxn(reactants(a(CHEBI:cortisone)),products(a(CHEBI:cortisol)))	BEL:20000288
+SEN:10000196	bp(GOBP:"response to ionizing radiation") increases p(HGNC:JUN,pmod(P,S,73))	BEL:20000290
+SEN:10000196	bp(GOBP:"response to ionizing radiation") increases p(HGNC:JUN)	BEL:20000292
+SEN:10000198	cat(p(HGNC:F2R)) increases p(HGNC:PTK2,pmod(P))	BEL:20000294
+SEN:10000198	cat(p(HGNC:F2R)) increases p(HGNC:PXN,pmod(P))	BEL:20000296
+SEN:10000200	cat(p(HGNC:SLC9A1)) increases path(MESHD:Hypertension)	BEL:20000298
+SEN:10000202	cat(p(HGNC:ITGB1)) increases p(HGNC:PTK2,pmod(P,Y,397))	BEL:20000300
+SEN:10000204	cat(p(HGNC:CASP3)) increases kin(p(HGNC:ROCK1))	BEL:20000302
+SEN:10000206	p(HGNC:CDKN1A) increases bp(GOBP:"cell differentiation")	BEL:20000304
+SEN:10000206	p(HGNC:CDKN1A) decreases bp(GOBP:"cell growth")	BEL:20000306
+SEN:10000208	bp(GOBP:"MAPK cascade") increases p(HGNC:CDKN1A)	BEL:20000308
+SEN:10000210	a(CHEBI:fenofibrate) increases p(MGI:Pltp)	BEL:20000310
+SEN:10000212	p(HGNC:NGF) increases path(MESHD:Fibrosis)	BEL:20000312
+SEN:10000214	complex(p(MGI:Il12a),p(MGI:Il12b)) increases bp(GOBP:"inflammatory response")	BEL:20000314
+SEN:10000216	cat(p(HGNC:DFFB)) increases bp(GOBP:"apoptotic DNA fragmentation")	BEL:20000316
+SEN:10000216	complex(p(HGNC:DFFA), p(HGNC:DFFB)) decreases cat(p(HGNC:DFFB))	BEL:20000318
+SEN:10000216	cat(p(HGNC:DFFA)) decreases cat(p(HGNC:DFFB))	BEL:20000320
+SEN:10000218	cat(p(MGI:Ednrb)) increases cat(p(MGI:Slc9a3))	BEL:20000322
+SEN:10000218	complex(p(MGI:Edn1),p(MGI:Ednrb)) increases cat(p(MGI:Slc9a3))	BEL:20000324
+SEN:10000218	path(MESHD:Acidosis) increases p(MGI:Edn1)	BEL:20000326
+SEN:10000220	p(MGI:Abl1) increases (path(MESHD:Hyperoxia) increases path(MESHD:"Retinal Neovascularization"))	BEL:20000328
+SEN:10000220	p(MGI:Abl1) increases path(MESHD:"Retinal Neovascularization")	BEL:20000330
+SEN:10000220	p(MGI:Abl1) increases (path(MESHD:Hyperoxia) increases r(MGI:Vegfa))	BEL:20000332
+SEN:10000220	p(MGI:Abl1) increases r(MGI:Vegfa)	BEL:20000334
+SEN:10000222	cat(p(MGI:Tlr2)) increases p(MGI:Tnf)	BEL:20000336
+SEN:10000222	cat(p(MGI:Tlr2)) increases p(MGI:Il12b)	BEL:20000338
+SEN:10000222	cat(p(MGI:Tlr2)) increases p(MGI:Il12a)	BEL:20000340
+SEN:10000222	cat(p(MGI:Tlr2)) increases a(CHEBI:"nitric oxide")	BEL:20000342
+SEN:10000224	gtp(p(HGNC:RAC1)) increases tscript(p(HGNC:STAT3))	BEL:20000344
+SEN:10000224	p(HGNC:RAC1) increases p(HGNC:IL6)	BEL:20000346
+SEN:10000224	p(HGNC:RAC1) increases p(HGNC:IL6R)	BEL:20000348
+SEN:10000224	cat(p(HGNC:IL6R)) increases tscript(p(HGNC:STAT3))	BEL:20000350
+SEN:10000226	a(CHEBI:staurosporine) decreases p(MGI:Hist1h1d,pmod(P))	BEL:20000352
+SEN:10000230	a(CHEBI:"Ro 31-8220") decreases kin(p(MGI:Prkd1))	BEL:20000356
+SEN:10000232	a(CHEBI:"Ro 31-8220") decreases (a(CHEBI:"phorbol 12,13-dibutanoate") increases p(MGI:Prkd1,pmod(P,S,916)))	BEL:20000360
+SEN:10000234	a(CHEBI:"phorbol 12,13-dibutanoate") increases kin(p(MGI:Prkd1))	BEL:20000362
+SEN:10000234	a(CHEBI:vasopressin) increases kin(p(MGI:Prkd1))	BEL:20000366
+SEN:10000236	a(CHEBI:vasopressin) increases p(MGI:Prkd1,pmod(P,S,916))	BEL:20000368
+SEN:10000238	a(CHEBI:etoposide) increases p(MGI:H2afx,pmod(P))	BEL:20000370
+SEN:10000240	a(CHEBI:"cholic acid") increases r(MGI:Apoc2)	BEL:20000372
+SEN:10000240	a(CHEBI:"cholic acid") increases r(MGI:Pltp)	BEL:20000374
+SEN:10000242	p(HGNC:PARP1) decreases cat(p(HGNC:DNASE1L3))	BEL:20000376
+SEN:10000242	cat(p(HGNC:CASP3)) decreases (p(HGNC:PARP1) decreases cat(p(HGNC:DNASE1L3)))	BEL:20000378
+SEN:10000242	cat(p(HGNC:CASP3)) decreases p(HGNC:PARP1)	BEL:20000380
+SEN:10000244	cat(p(MGI:Suv39h1)) decreases path(MESHD:Neoplasms)	BEL:20000382
+SEN:10000244	cat(p(MGI:Suv39h2)) decreases path(MESHD:Neoplasms)	BEL:20000384
+SEN:10000246	p(MGI:Gbp2) increases bp(GOBP:"cell growth")	BEL:20000386
+SEN:10000248	a(CHEBI:lipopolysaccharide) increases tscript(p(MGI:Ppargc1a))	BEL:20000388
+SEN:10000250	cat(p(HGNC:MYD88)) directlyIncreases kin(p(HGNC:IRAK1))	BEL:20000390
+SEN:10000252	p(MGI:Mst1) increases cat(p(MGI:Mst1r))	BEL:20000392
+SEN:10000252	cat(p(MGI:Mst1r)) decreases r(MGI:Nos2)	BEL:20000394
+SEN:10000252	cat(p(MGI:Mst1r)) decreases a(CHEBI:"nitric oxide")	BEL:20000396
+SEN:10000254	p(MGI:Apoa1) increases complex(a(CHEBI:"high-density lipoprotein"),a(CHEBI:cholesterol))	BEL:20000398
+SEN:10000254	p(MGI:Apoa2) increases complex(a(CHEBI:"high-density lipoprotein"),a(CHEBI:cholesterol))	BEL:20000400
+SEN:10000256	a(CHEBI:"lithocholic acid") increases tscript(p(MGI:Nr1i2))	BEL:20000402
+SEN:10000258	a(CHEBI:oxysterol) decreases tscript(p(MGI:Srebf2))	BEL:20000404
+SEN:10000260	p(MGI:Nr1h2) increases (a(CHEBI:cholesterol) increases r(MGI:Cyp7a1))	BEL:20000406
+SEN:10000262	p(MGI:Nr1h3) increases (a(CHEBI:cholesterol) increases r(MGI:Cyp7a1))	BEL:20000408
+SEN:10000264	bp(GOBP:"inflammatory response") increases p(MGI:Adcyap1)	BEL:20000410
+SEN:10000264	bp(GOBP:"inflammatory response") increases p(MGI:Vip)	BEL:20000412
+SEN:10000266	cat(p(MGI:Nos1)) increases bp(GOBP:angiogenesis)	BEL:20000414
+SEN:10000266	cat(p(MGI:Nos2)) increases bp(GOBP:angiogenesis)	BEL:20000416
+SEN:10000268	cat(p(HGNC:IL6ST)) directlyIncreases kin(p(HGNC:JAK2))	BEL:20000418
+SEN:10000270	p(MGI:Angpt2) increases path(MESHD:"Retinal Neovascularization")	BEL:20000420
+SEN:10000272	cat(p(MGI:Alox5)) increases path(MESHD:Atherosclerosis)	BEL:20000422
+SEN:10000274	p(MGI:Fgf2) increases bp(GOBP:"cell cycle")	BEL:20000424
+SEN:10000276	cat(p(HGNC:FADD)) increases cat(p(HGNC:CASP8))	BEL:20000426
+SEN:10000276	cat(p(HGNC:FADD)) increases cat(p(HGNC:CASP10))	BEL:20000428
+SEN:10000278	bp(GOBP:"apoptotic process") increases cat(p(MGI:Pla2g4a))	BEL:20000430
+SEN:10000278	bp(GOBP:"apoptotic process") increases cat(p(MGI:Pla2g6))	BEL:20000432
+SEN:10000280	bp(GOBP:"response to hypoxia") increases cat(p(MGI:Entpd1))	BEL:20000434
+SEN:10000280	bp(GOBP:"response to hypoxia") increases cat(p(MGI:Nt5e))	BEL:20000436
+SEN:10000282	cat(p(HGNC:CASP10)) increases cat(p(HGNC:CASP3))	BEL:20000438
+SEN:10000284	cat(p(MGI:Lox)) decreases tloc(p(MGI:Fgf2),GOCCID:0005737,GOCCID:0005634)	BEL:20000440
+SEN:10000286	cat(p(HGNC:MMP12)) increases deg(p(HGNC:ELN))	BEL:20000442
+SEN:10000286	cat(p(HGNC:MMP2)) increases deg(p(HGNC:ELN))	BEL:20000444
+SEN:10000286	cat(p(HGNC:MMP7)) increases deg(p(HGNC:ELN))	BEL:20000446
+SEN:10000286	cat(p(HGNC:MMP9)) increases deg(p(HGNC:ELN))	BEL:20000448
+SEN:10000288	cat(p(MGI:Ctss)) increases bp(GOBP:angiogenesis)	BEL:20000450
+SEN:10000290	cat(p(HGNC:BCL2)) decreases cat(p(HGNC:BAK1))	BEL:20000452
+SEN:10000292	cat(p(HGNC:DOCK1)) directlyIncreases gtp(p(HGNC:RAC1))	BEL:20000454
+SEN:10000294	p(MGI:Abca1) decreases path(MESHD:Atherosclerosis)	BEL:20000456
+SEN:10000296	cat(p(MGI:Npy)) increases bp(GOBP:angiogenesis)	BEL:20000458
+SEN:10000296	cat(p(MGI:Npy2r)) increases bp(GOBP:angiogenesis)	BEL:20000460
+SEN:10000298	cat(p(MGI:Ptger4)) increases bp(GOBP:"cell migration")	BEL:20000462
+SEN:10000300	cat(p(HGNC:ADAM17)) increases p(HGNC:AREG)	BEL:20000464
+SEN:10000302	complex(p(MGI:Yy1),p(MGI:Rb1)) decreases tscript(p(MGI:Yy1))	BEL:20000466
+SEN:10000304	cat(p(HGNC:MMP9)) increases p(HGNC:VEGFA)	BEL:20000468
+SEN:10000306	cat(p(HGNC:MMP9)) increases p(HGNC:VEGFA)	BEL:20000470
+SEN:10000308	complex(p(MGI:Vdr),p(MGI:Rxra)) directlyIncreases tscript(p(MGI:Vdr))	BEL:20000472
+SEN:10000310	a(CHEBI:"bile salt") decreases complex(p(MGI:Crebbp),p(MGI:Hnf4a))	BEL:20000474
+SEN:10000310	a(CHEBI:"bile salt") decreases complex(p(MGI:Hnf4a),p(MGI:Ppargc1a))	BEL:20000476
+SEN:10000312	phos(p(MGI:Pten)) decreases path(MESHD:Hypertrophy)	BEL:20000478
+SEN:10000314	p(MGI:Cry1) increases bp(GOBP:"cell cycle")	BEL:20000480
+SEN:10000316	cat(p(HGNC:HIF1AN)) directlyDecreases complex(p(HGNC:HIF1A),p(HGNC:EP300))	BEL:20000482
+SEN:10000316	cat(p(HGNC:HIF1AN)) directlyDecreases complex(p(HGNC:HIF1A),p(HGNC:CREBBP))	BEL:20000484
+SEN:10000316	cat(p(HGNC:HIF1AN)) directlyDecreases tscript(p(HGNC:HIF1A))	BEL:20000486
+SEN:10000318	a(CHEBI:carboplatin) increases (p(MGI:Hif1a) decreases bp(GOBP:"apoptotic process"))	BEL:20000488
+SEN:10000320	cat(p(HGNC:CHFR)) increases deg(p(HGNC:PLK1))	BEL:20000490
+SEN:10000322	path(MESHD:Hyperoxia) decreases sec(p(MGI:Vegfa))	BEL:20000492
+SEN:10000324	cat(p(HGNC:TIMP2)) decreases cat(p(HGNC:MMP14))	BEL:20000494
+SEN:10000326	cat(p(HGNC:CASP3)) increases cat(p(HGNC:CASP7))	BEL:20000496
+SEN:10000328	p(MGI:Adipoq) decreases (p(MGI:Lep) decreases path(MESHD:"Diabetes Mellitus"))	BEL:20000498
+SEN:10000328	p(MGI:Adipoq) decreases (p(MGI:Apoe) decreases path(MESHD:Atherosclerosis))	BEL:20000500
+SEN:10000328	p(MGI:Apoe) decreases path(MESHD:Atherosclerosis)	BEL:20000502
+SEN:10000330	p(MGI:Ccr2) increases path(MESHD:Atherosclerosis)	BEL:20000504
+SEN:10000330	p(MGI:Csf1) increases path(MESHD:Atherosclerosis)	BEL:20000506
+SEN:10000330	p(MGI:Ccl2) increases path(MESHD:Atherosclerosis)	BEL:20000508
+SEN:10000332	cat(p(HGNC:CASP7)) directlyDecreases cat(p(HGNC:DFFA))	BEL:20000510
+SEN:10000332	cat(p(HGNC:CASP3)) directlyDecreases cat(p(HGNC:DFFA))	BEL:20000512
+SEN:10000334	path(MESHD:Ischemia) increases sec(p(MGI:Csf3))	BEL:20000514
+SEN:10000334	path(MESHD:Ischemia) increases sec(p(MGI:Cxcl1))	BEL:20000516
+SEN:10000334	path(MESHD:Ischemia) increases sec(p(MGI:Il6))	BEL:20000518
+SEN:10000336	cat(p(MGI:Icmt)) increases bp(GOBP:"cell growth")	BEL:20000520
+SEN:10000336	cat(p(MGI:Icmt)) increases (gtp(p(MGI:Kras)) increases path(MESHD:Neoplasms))	BEL:20000522
+SEN:10000338	cat(p(MGI:Icmt)) increases (kin(p(MGI:Braf)) increases path(MESHD:Neoplasms))	BEL:20000524
+SEN:10000336	gtp(p(MGI:Kras)) increases path(MESHD:Neoplasms)	BEL:20000526
+SEN:10000338	kin(p(MGI:Braf)) increases path(MESHD:Neoplasms)	BEL:20000528
+SEN:10000340	a(CHEBI:castanospermine) decreases complex(p(MGI:Asgr2),p(MGI:Pdia3))	BEL:20000530
+SEN:10000342	cat(p(MGI:Entpd1)) decreases path(MESHD:Ischemia)	BEL:20000532
+SEN:10000344	cat(p(MGI:Hsd11b1)) increases bp(MESHD:"Insulin Resistance")	BEL:20000534
+SEN:10000344	cat(p(MGI:Hsd11b1)) increases path(MESHD:Obesity)	BEL:20000536
+SEN:10000344	cat(p(MGI:Hsd11b1)) increases path(MESHD:Hypertension)	BEL:20000538
+SEN:10000346	complex(p(MGI:Wwp2),p(MGI:Pou5f1)) directlyIncreases deg(p(MGI:Pou5f1))	BEL:20000540
+SEN:10000348	cat(p(MGI:Lgals12)) increases bp(GOBP:"fat cell differentiation")	BEL:20000542
+SEN:10000350	cat(p(MGI:Lgals12)) increases r(MGI:Cebpa)	BEL:20000544
+SEN:10000350	cat(p(MGI:Lgals12)) increases r(MGI:Cebpb)	BEL:20000546
+SEN:10000350	cat(p(MGI:Lgals12)) increases r(MGI:Pparg)	BEL:20000548
+SEN:10000350	cat(p(MGI:Lgals12)) increases bp(GOBP:"fat cell differentiation")	BEL:20000550
+SEN:10000354	cat(p(MGI:Agtr1a)) increases path(MESHD:Hypertrophy)	BEL:20000552
+SEN:10000356	cat(p(MGI:Vipr2)) increases bp(GOBP:"inflammatory response")	BEL:20000554
+SEN:10000358	cat(p(HGNC:F2)) increases p(HGNC:FOS)	BEL:20000556
+SEN:10000360	cat(p(HGNC:F2)) increases tscript(p(HGNC:JUN))	BEL:20000558
+SEN:10000362	complex(p(MGI:Tsc1),p(MGI:Tsc2)) decreases bp(GOBP:"cell growth")	BEL:20000560
+SEN:10000362	complex(p(MGI:Tsc1),p(MGI:Tsc2)) decreases kin(p(MGI:Rps6kb1))	BEL:20000562
+SEN:10000364	cat(p(HGNC:CASP8)) directlyIncreases cat(p(HGNC:CASP3))	BEL:20000564
+SEN:10000364	cat(p(HGNC:CASP9)) directlyIncreases cat(p(HGNC:CASP3))	BEL:20000566
+SEN:10000364	cat(p(HGNC:CASP9)) directlyIncreases cat(p(HGNC:CASP6))	BEL:20000568
+SEN:10000364	cat(p(HGNC:CASP9)) directlyIncreases cat(p(HGNC:CASP7))	BEL:20000570
+SEN:10000366	a(CHEBI:acetylcysteine) decreases (path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk3)))	BEL:20000572
+SEN:10000368	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk1)))	BEL:20000574
+SEN:10000368	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk3)))	BEL:20000576
+SEN:10000370	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases p(MGI:Nfe2l2,pmod(P,S)))	BEL:20000578
+SEN:10000372	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases tloc(p(MGI:Nfe2l2),GOCCID:0005737,GOCCID:0005634))	BEL:20000580
+SEN:10000374	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases tloc(p(MGI:Nfe2l2),GOCCID:0005737,GOCCID:0005634))	BEL:20000582
+SEN:10000376	a(CHEBI:"(2Z,3Z)-bis\{amino[(2-aminophenyl)sulfanyl]methylidene\}butanedinitrile") decreases (path(MESHD:Hyperoxia) increases tscript(p(MGI:Nfe2l2)))	BEL:20000584
+SEN:10000378	path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk1))	BEL:20000586
+SEN:10000380	path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk3))	BEL:20000588
+SEN:10000378	path(MESHD:Hyperoxia) increases kin(p(MGI:Mapk3))	BEL:20000590
+SEN:10000382	path(MESHD:Hyperoxia) increases p(MGI:Nfe2l2,pmod(P))	BEL:20000592
+SEN:10000384	path(MESHD:Hyperoxia) increases p(MGI:Nfe2l2,pmod(P))	BEL:20000594
+SEN:10000386	path(MESHD:Hyperoxia) increases tloc(p(MGI:Nfe2l2),GOCCID:0005737,GOCCID:0005634)	BEL:20000596
+SEN:10000388	path(MESHD:Hyperoxia) increases tloc(p(MGI:Nfe2l2),GOCCID:0005737,GOCCID:0005634)	BEL:20000598
