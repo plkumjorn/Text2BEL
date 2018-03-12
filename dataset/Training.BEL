@@ -34,7 +34,7 @@ SEN:10000138	bp(GOBP:"response to hypoxia") increases deg(p(HGNC:CREB1))	BEL:200
 SEN:10000140	bp(GOBP:"response to hypoxia") increases deg(p(HGNC:CREB1))	BEL:20000212
 SEN:10000138	bp(GOBP:"response to hypoxia") increases p(HGNC:CREB1,pmod(P,S))	BEL:20000214
 SEN:10000150	cat(p(HGNC:IL2)) increases kin(p(HGNC:LYN))	BEL:20000226
-SEN:10000150	cat(p(HGNC:IL2)) increases complex(p(HGNC:LYN), p(HGNC:IL2RB))	BEL:20000228
+SEN:10000150	cat(p(HGNC:IL2)) increases complex(p(HGNC:LYN),p(HGNC:IL2RB))	BEL:20000228
 SEN:10000154	a(CHEBI:wortmannin) decreases p(MGI:Ddit3)	BEL:20000234
 SEN:10000154	a(CHEBI:LY294002) decreases p(MGI:Ddit3)	BEL:20000236
 SEN:10000156	a(CHEBI:lipopolysaccharide) increases a(CHEBI:"nitric oxide")	BEL:20000238
@@ -51,7 +51,7 @@ SEN:10000190	bp(GOBP:"apoptotic process") decreases complex(p(HGNC:EIF4B),p(HGNC
 SEN:10000192	cat(p(HGNC:CASP3)) increases deg(p(HGNC:EIF4B))	BEL:20000286
 SEN:10000196	bp(GOBP:"response to ionizing radiation") increases p(HGNC:JUN)	BEL:20000292
 SEN:10000210	a(CHEBI:fenofibrate) increases p(MGI:Pltp)	BEL:20000310
-SEN:10000216	complex(p(HGNC:DFFA), p(HGNC:DFFB)) decreases cat(p(HGNC:DFFB))	BEL:20000318
+SEN:10000216	complex(p(HGNC:DFFA),p(HGNC:DFFB)) decreases cat(p(HGNC:DFFB))	BEL:20000318
 SEN:10000216	cat(p(HGNC:DFFA)) decreases cat(p(HGNC:DFFB))	BEL:20000320
 SEN:10000218	cat(p(MGI:Ednrb)) increases cat(p(MGI:Slc9a3))	BEL:20000322
 SEN:10000218	complex(p(MGI:Edn1),p(MGI:Ednrb)) increases cat(p(MGI:Slc9a3))	BEL:20000324
