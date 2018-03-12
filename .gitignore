@@ -4,3 +4,4 @@ dictionary/chebi.owl
 word_embeddings/*
 T2B*
 word_embedding.pickle
+results/*
