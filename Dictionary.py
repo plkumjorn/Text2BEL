@@ -9,7 +9,7 @@
 # - MGI to HGNC   : HOM_MouseHumanSequence.rpt
 # - EGID to HGNC  : [not used] gene_info (Very large file)
 
-# In[29]:
+# In[21]:
 
 
 import json, pprint, csv, re
@@ -17,7 +17,7 @@ from collections import Counter
 import xml.etree.ElementTree as ET
 
 
-# In[30]:
+# In[22]:
 
 
 def loadSentences(filename):
@@ -27,7 +27,7 @@ def loadSentences(filename):
     return sentences
 
 
-# In[31]:
+# In[23]:
 
 
 def createIndexFromDict(HGNCDict):
@@ -41,7 +41,7 @@ def createIndexFromDict(HGNCDict):
     return HGNCIndex
 
 
-# In[32]:
+# In[24]:
 
 
 def getHGNCDictIndex():
@@ -92,7 +92,7 @@ def getHGNCDictIndex():
     return HGNCDict, HGNCIndex, HGNCID2Symbol, EGID2HGNC
 
 
-# In[33]:
+# In[25]:
 
 
 def getChEBIDictIndexOld():
@@ -139,7 +139,7 @@ def getChEBIDictIndexOld():
     return ChEBIDict, ChEBIIndex
 
 
-# In[34]:
+# In[26]:
 
 
 def getChEBIDictIndex():
@@ -180,7 +180,7 @@ def getChEBIDictIndex():
     return ChEBIDict, ChEBIIndex
 
 
-# In[35]:
+# In[27]:
 
 
 def getGOBPDictIndex():
@@ -219,7 +219,7 @@ def getGOBPDictIndex():
     return GOBPDict, GOBPIndex
 
 
-# In[36]:
+# In[28]:
 
 
 def getMESHDictIndex():
@@ -232,10 +232,12 @@ def getMESHDictIndex():
         symbol = desc.find('DescriptorName').find('String').text
         preferredConcept = []
         relatedConcept = []
+        scopeNote = None
         conceptList = desc.find('ConceptList').findall('Concept')
         for conc in conceptList:
             if conc.attrib['PreferredConceptYN'] == 'Y':
                 preferredConcept.extend([t.find('String').text for t in conc.find('TermList').findall('Term')])
+                scopeNote = conc.find('ScopeNote').text
             else:
                 relatedConcept.extend([t.find('String').text for t in conc.find('TermList').findall('Term')])
         allName = [symbol]
@@ -245,7 +247,8 @@ def getMESHDictIndex():
             'symbol': symbol,
             'preferred_concept': list(set(preferredConcept)),
             'related_concept': list(set(relatedConcept)),
-            'all_name': list(set([x.lower() for x in allName]))
+            'all_name': list(set([x.lower() for x in allName])),
+            'definition': scopeNote.strip()
 #             'all_name': list(set([x.lower().replace('-', ' ') for x in allName]))
         }
    
@@ -260,7 +263,7 @@ def getMESHDictIndex():
     return MESHDict, MESHIndex
 
 
-# In[37]:
+# In[29]:
 
 
 def getPossibleMatches(text):
@@ -277,7 +280,7 @@ def getPossibleMatches(text):
     return resultsList
 
 
-# In[38]:
+# In[30]:
 
 
 def getMGI2HGNCDict():
@@ -299,12 +302,12 @@ def getMGI2HGNCDict():
         if len(aMap['MGI']) > 0 and len(aMap['HGNC']) > 0 and len(aMap['MGI']) + len(aMap['HGNC']) > 2:
             pass
 #             print(hid)
-        if len(aMap['MGI']) == 1 and len(aMap['HGNC']) == 1:
+        if len(aMap['MGI']) == 1 and len(aMap['HGNC']) == 1: # Only 1-to-1 mappings between MGI and HGNC are used.
             MGI2HGNC[aMap['MGI'][0]] = aMap['HGNC'][0]
     return MGI2HGNC
 
 
-# In[39]:
+# In[31]:
 
 
 def getEGID2HGNCDict():
@@ -318,7 +321,7 @@ def getEGID2HGNCDict():
     return EGID2HGNC
 
 
-# In[ ]:
+# In[32]:
 
 
 def testDict():
@@ -338,7 +341,7 @@ def testDict():
     print('\n')
 
 
-# In[ ]:
+# In[33]:
 
 
 HGNCDict, HGNCIndex, HGNCID2Symbol, EGID2HGNC = getHGNCDictIndex()
@@ -348,12 +351,13 @@ MESHDict, MESHIndex = getMESHDictIndex()
 MGI2HGNC = getMGI2HGNCDict()
 
 
-# In[ ]:
+# In[34]:
 
 
 # testDict()
 # print(GOBPDict['cell migration'])
-# print(getPossibleMatches('apoptotic process'))
+# print(MESHDict['Retinal Neovascularization'])
+# print(getPossibleMatches('COMMD3-BMI1'))
 # print(MGI2HGNC['Pde3b'])
 # print(EGID2HGNC['9687'])
 
