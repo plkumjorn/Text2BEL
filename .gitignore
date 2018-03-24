@@ -5,3 +5,5 @@ word_embeddings/*
 T2B*
 word_embedding.pickle
 results/*
+BELToken_embedding.pickle
+memory_layer*
